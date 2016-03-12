@@ -76,6 +76,14 @@ COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS -DHAWAII_HWC -DREFBASE_JB_MR1
 BOARD_USES_LEGACY_ACQUIRE_WVM := true
 BOARD_USES_BROADCOM_HARDWARE := true
 
+# Enable dex-preoptimization to speed up the first boot sequence
+# of an SDK AVD. Note that this operation only works on Linux for now
+ifeq ($(HOST_OS),linux)
+  ifeq ($(WITH_DEXPREOPT),)
+    WITH_DEXPREOPT := true
+  endif
+endif
+
 # Camera
 #BOARD_USE_METADATABUFFERTYPE := true
 #BOARD_USE_STOREMETADATA := true
