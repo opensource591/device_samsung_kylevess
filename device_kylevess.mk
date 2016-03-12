@@ -28,15 +28,11 @@ PRODUCT_COPY_FILES += \
  	device/samsung/kylevess/configs/media_codecs.xml:system/etc/media_codecs.xml 
 
 # Prebuilt kl keymaps
-PRODUCT_COPY_FILES += \
-	device/samsung/kylevess/keylayouts/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
-	device/samsung/kylevess/keylayouts/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
-	device/samsung/kylevess/keylayouts/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-	device/samsung/kylevess/keylayouts/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl
-
-# Copy Apps
 #PRODUCT_COPY_FILES += \
-#   device/samsung/baffinlite/MultiSIM-Toggle.apk:system/app/MultiSIM-Toggle.apk
+#	device/samsung/kylevess/keylayouts/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
+#	device/samsung/kylevess/keylayouts/bcm_keypad_v2.kl:system/usr/keylayout/bcm_keypad_v2.kl \
+#	device/samsung/kylevess/keylayouts/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
+#	device/samsung/kylevess/keylayouts/samsung-keypad.kl:system/usr/keylayout/samsung-keypad.kl
 
 # Charger
 PRODUCT_PACKAGES += \
