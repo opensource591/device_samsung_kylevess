@@ -5,7 +5,6 @@ bin/gps.cer
 bin/gpslogd
 bin/mttlogger
 bin/rild
-egl/egl.cfg
 bin/mfgloader
 bin/wlandutservice
 bin/macloader
