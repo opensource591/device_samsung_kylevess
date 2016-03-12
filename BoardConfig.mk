@@ -99,14 +99,6 @@ BOARD_USES_ALSA_AUDIO := true
 BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB := true
 #BOARD_USES_LEGACY_MMAP := true
 
-# Enable dex-preoptimization to speed up the first boot sequence
-# of an SDK AVD. Note that this operation only works on Linux for now
-#ifeq ($(HOST_OS),linux)
-#  ifeq ($(WITH_DEXPREOPT),)
-#    WITH_DEXPREOPT := true
-#  endif
-#endif
-
 # Bootanimation
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
