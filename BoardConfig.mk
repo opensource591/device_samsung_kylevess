@@ -92,7 +92,7 @@ endif
 EXTENDED_FONT_FOOTPRINT := true
 
 # opengl
-#BOARD_USE_BGRA_8888 := true
+BOARD_USE_BGRA_8888 := true
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true

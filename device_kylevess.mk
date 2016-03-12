@@ -27,6 +27,12 @@ PRODUCT_COPY_FILES += \
 	frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
  	device/samsung/kylevess/configs/media_codecs.xml:system/etc/media_codecs.xml 
 
+# Libs
+PRODUCT_COPY_FILES += \
+	device/samsung/kylevess/libs/egl/libGLES_hawaii.so:system/libs/egl/libGLES_hawaii.so \
+	device/samsung/kylevess/libs/hw/gralloc.hawaii.so:system/libs/hw/gralloc.hawaii.so \
+	device/samsung/kylevess/libs/hw/hwcomposer.hawaii.so:system/libs/hw/hwcomposer.hawaii.so
+
 # Prebuilt kl keymaps
 #PRODUCT_COPY_FILES += \
 #	device/samsung/kylevess/keylayouts/bcm_headset.kl:system/usr/keylayout/bcm_headset.kl \
